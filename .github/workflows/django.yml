@@ -10,7 +10,7 @@ jobs:
     
     strategy:
     	matrix:
-    		postgres-version: [14.9, 15]
+    	 postgres-version: [14.9, 15]
 
     services:
       postgres:
